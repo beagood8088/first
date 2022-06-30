@@ -6,10 +6,7 @@ import com.example.first.entity.NotificationToSupervisor;
 import com.example.first.repository.NotificationToSupervisorRepository;
 import com.example.first.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.validation.Valid;
@@ -17,6 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 public class NotificationToSupervisorController {
     private static final String MANAGER_URL = "https://o3m5qixdng.execute-api.us-east-1.amazonaws.com/api/managers";

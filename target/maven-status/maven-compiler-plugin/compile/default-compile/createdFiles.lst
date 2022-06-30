@@ -1,0 +1,8 @@
+com\example\first\repository\NotificationToSupervisorRepository.class
+com\example\first\FirstApplication.class
+com\example\first\DisplaySupervisor.class
+com\example\first\utils\Utils.class
+com\example\first\consumingrest\Manager.class
+com\example\first\entity\NotificationToSupervisor.class
+com\example\first\controller\NotificationToSupervisorController.class
+com\example\first\service\NotificationValidationService.class

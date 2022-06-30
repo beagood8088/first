@@ -1,0 +1,7 @@
+#
+#Fri Jul 01 00:45:06 CST 2022
+com.example.first.entity.NotificationToSupervisor=javax.persistence.Entity
+com.example.first.controller.NotificationToSupervisorController=org.springframework.stereotype.Component
+com.example.first.FirstApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.example.first.repository.NotificationToSupervisorRepository=org.springframework.data.repository.Repository
+com.example.first.utils.Utils=org.springframework.stereotype.Component
